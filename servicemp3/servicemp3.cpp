@@ -4203,6 +4203,7 @@ void eServiceMP3::pushSubtitles()
 				vobsub_page.m_timeout = timeout;
 				vobsub_page.m_pixmap = current->second.pixmap;
 
+//				m_subtitle_widget->setPage(vobsub_page);
 			}
 			else
 			{
